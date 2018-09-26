@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Wall Tennis</title>
+</head>
+
+<body>
+    <canvas></canvas>
+
+    <script type="application/javascript" src="vendor/keymaster.js"></script>
+    <script type="application/javascript" src="lib/bundle.js"></script>
+</body>
+
+</html>
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Gamedev Canvas Workshop</title>
+</head>
+<body>
+
+<canvas id="myCanvas" width="800" height="600"></canvas>
+
+<script>
+let ballX = 75;
+
+
+window.onload = () => {
+	const canvas = document.getElementById("myCanvas");
+    const ctx = canvas.getContext("2d");
+
+    let fps = 30;
+    setInterval(updateAll, 1000/fps)
+}
+
+updateAll = () => {
+    ballX++;
+    
+    ctx.fillStyle = 'black';
+    ctx.fillRect(0,0, canvas.width, canvas.height);
+
+    ctx.fillStyle = 'white';
+    ctx.beginPath();
+    ctx.arc(ballX,100, 10, 0, Math.PI*2, true);
+    ctx.fill();
+}
+
+
+</script>
+
+</body>
+</html> -->
