@@ -1,0 +1,41 @@
+html {
+    color: white;
+    background-color: black;
+    font-family: 'Press Start 2P', cursive;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding-right: 20px;
+}
+
+a:hover {
+  color: red;
+}
+
+.small {
+    display: flex;
+    flex-direction: row;
+}
+
+canvas {
+  outline: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+div,img,li,ul{
+  margin: 0;
+  padding: 0;
+  padding-bottom: 5px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}

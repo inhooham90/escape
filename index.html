@@ -4,54 +4,54 @@
 <head>
     <title>Escape</title>
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+        <link rel="icon" href="images/favicon.png" type="image/icon">
+        <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
-    <canvas id="game-canvas"></canvas>
+    <ul class="big">
+        <li>
+            <canvas id="game-canvas"></canvas>
+        </li>
+        <br>
+        <li>
+            <ul class="medium">
+                <li>
+                    Press 'ENTER' to start game
+                </li>
+                <li>
+                    Press 'ARROW KEYS' to move
+                </li>
+                <li>
+                    Press 'SPACE' to inspect/interact
+                </li>
+                <li>
+                    Press 'i' to check inventory
+                </li>
+                <li>
+                    Press 'm' to toggle music
+                </li>
+            </ul>
+        </li>
+        <br>
+        <ul class="small">
+            <li>
+                <a href="https://www.linkedin.com/in/in-hoo-ham-824982108/">LinkedIn</a>
+            </li>
+            <li>
+                <a href="https://github.com/jamsuham22">GitHub</a>
+            </li>
+            <li>
+                <a href="https://angel.co/inhoo-j-ham">AngelList</a>
+            </li>
+        </ul>
 
-    Press m to toggle music
+        <li>
+    </ul>
+
     <script type="application/javascript" src="vendor/keymaster.js"></script>
     <script type="application/javascript" src="lib/bundle.js"></script>
+
 </body>
 
 </html>
-
-<!-- <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <title>Gamedev Canvas Workshop</title>
-</head>
-<body>
-
-<canvas id="myCanvas" width="800" height="600"></canvas>
-
-<script>
-let ballX = 75;
-
-
-window.onload = () => {
-	const canvas = document.getElementById("myCanvas");
-    const ctx = canvas.getContext("2d");
-
-    let fps = 30;
-    setInterval(updateAll, 1000/fps)
-}
-
-updateAll = () => {
-    ballX++;
-    
-    ctx.fillStyle = 'black';
-    ctx.fillRect(0,0, canvas.width, canvas.height);
-
-    ctx.fillStyle = 'white';
-    ctx.beginPath();
-    ctx.arc(ballX,100, 10, 0, Math.PI*2, true);
-    ctx.fill();
-}
-
-
-</script>
-
-</body>
-</html> -->
