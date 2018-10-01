@@ -1,6 +1,6 @@
-# Escape 
+# Stalker 
 
-**Escape** is a escape room inspired game with a horror theme. <br/>
+**Stalker** is a escape room inspired game with a horror theme. <br/>
 [Play Stalker!](https://jamsuham22.github.io/escape/)
 
 ## Story 
@@ -11,7 +11,6 @@
 
 Tom is an attractive fella. One day.. he wakes up locked up without any memories. He needs to find clues to recover his memory and to get out of the creepy, seemingly haunted room...
 
-**possible change may be made**
 
 ## The Game
 
@@ -74,11 +73,12 @@ Canvas with HTML5
 
 <img src="images/walk_left.gif" width="200">
 <img src="images/walk_right.gif" width="200">
-<img src="images/walk_left.gif" width="200">
 
 **Day 4:** Enable users to pick up items. Set up narration, inventory, phrases, and other objects and items needed to continue game storyline. <br/>
 
 **Day 5:** Enable users to see what items they currently hold, see description on the items, and allow movement based events- table surprise and footstep mp3. Final changes to storyline, enhance game logic, implement collision logic, and create tables. <br/>
+
+Instead of adding the sequence in the diary, added different images to tell the diary's sequence for extra story telling.<br/>
 <img src="images/letter1.png" width="150"> New
 <img src="images/letter2.png" width="150"> Older
 <img src="images/letter3.png" width="150"> Oldest
