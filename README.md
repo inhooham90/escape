@@ -20,7 +20,7 @@ Tom is animated through javascript to make the game more visually appeasing.
 
 
 
-The colors used, were mainly black, red, and yellowish toned to emotionally affect the players.
+The colors used, are mainly black, red, and yellowish toned to psychologically affect the players.
 
 Throughout the game, there are minor jumpscares. Users must look for clues and hints to help Tom collect pieces of his memory and escape the dreaded cabin.
 
@@ -28,28 +28,28 @@ Throughout the game, there are minor jumpscares. Users must look for clues and h
 
 ## MVP
 
-In Escape, users will be able to experience: 
+In Stalker, users:
 
-* Story telling through in game modals
-* Toggle music on and off
+* Experience story telling through in-game modals
+* Music toggle - on and off
 * Move the main character in multiple directions
-* Animated character movements
+* Experience Animated character movements
 * Pick up items
 * Toggle inventory slots through in game modal
 * Read item description through inventory slot
 * Interact with different settings (Collision logic)
-* Movement based game flow - events happen depending on game play
+* Experience movement based game flow - events happen depending on game play
 
-In addition, this project will include:
+In addition, this project includes:
 
-* A key map to help users with control
+* A guide to help users with control
 * links to AngelList, Github, and LinkedIn
 * A production README
 
 
 ## Architecture and Technologies
 
-This project will be implemented with the following technologies:
+This project includes following technologies:
 
 JavaScript for game logic
 Canvas with HTML5
