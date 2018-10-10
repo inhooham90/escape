@@ -444,7 +444,7 @@ class GameView {
         this.game = game;
         this.tom = this.game.addTom();
     }
-    
+
     start() {
         this.lastTime = 0;
         requestAnimationFrame(this.animate.bind(this));
@@ -458,10 +458,11 @@ class GameView {
 
         requestAnimationFrame(this.animate.bind(this));
     }
-  
+
 }
 
 module.exports = GameView
+
 
 /***/ }),
 
@@ -1112,7 +1113,7 @@ class Tom {
         }
 
     }
-    
+
     draw(obj) {
         if (window.rightPressed && !window.items) {
             this.image.src = "./images/right.png"
@@ -1133,7 +1134,7 @@ class Tom {
         } else if (!window.downPressed && window.leftPressed && !window.items) {
             window.frames += 150;
         }
-        
+
         switch (window.frames) {
             case 0:
                 this.sy = 0;
@@ -1166,11 +1167,10 @@ class Tom {
             this.sy = 0;
             window.frames = 0;
         }
-        window.getpos = [[obj.x, obj.y], this.count];
+        // window.getpos = [[obj.x, obj.y], this.count];
     obj.ctx.drawImage(this.image, this.sx, this.sy, this.sw, this.sh, obj.x, obj.y, this.width, this.height);
     }
 }
-
 
 
 /***/ })
